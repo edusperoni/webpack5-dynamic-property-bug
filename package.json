@@ -1,0 +1,16 @@
+{
+  "name": "webpack5-dynamic-property-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "node ./src/index.mjs && node ./dist/usedExportsFalse.js && node ./dist/default.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
